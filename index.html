@@ -1,0 +1,92 @@
+<html>
+<body>
+	<h3>Diabetes Prediction Form</h3>
+
+<div>
+<form action="/result" method="POST">
+	<label for="MEALS_T6_6">MEALS_T6_6 (between 10 and 250):</label>
+	<input type="number" id="MEALS_T6_6" name="MEALS_T6_6" min="10" max="250">
+	<br>
+	</select>
+	<label for="MEALS_T17_0">MEALS_T17_0 (between 0 and 150):</label>
+	<input type="number" id="MEALS_T17_0" name="MEALS_T17_0" min="0" max="150">
+	<br>
+	</select>
+	<label for="MEALS_T20_6">MEALS_T20_6 (between 0 and 150):</label>
+	<input type="number" id="MEALS_T20_6" name="MEALS_T20_6" min="0" max="150">
+	<br>
+	</select>
+	<label for="LAST_MEAL">LAST_MEAL (between 0 and 120):</label>
+	<input type="number" id="LAST_MEAL" name="LAST_MEAL" min="0" max="120">
+	<br>
+	</select>
+	<label for="TOTAL_LONG_ACTING_T6_6">TOTAL_LONG_ACTING_T6_6 (between 0 and 40):</label>
+	<input type="number" id="TOTAL_LONG_ACTING_T6_6" name="TOTAL_LONG_ACTING_T6_6" min="0" max="40">
+	<br>
+	</select>
+	<label for="TOTAL_SHORT_ACTING_T6_6">TOTAL_SHORT_ACTING_T6_6 (between 0 and 60):</label>
+	<input type="number" id="TOTAL_SHORT_ACTING_T6_6" name="TOTAL_SHORT_ACTING_T6_6" min="0" max="60">
+	<br>
+	</select>
+	<label for="TOTAL_INSULIN_T6_6">TOTAL_INSULIN_T6_6 (between 10 and 80):</label>
+	<input type="number" id="TOTAL_INSULIN_T6_6" name="TOTAL_INSULIN_T6_6" min="10" max="80">
+	<br>
+	</select>
+	<label for="TOTAL_LONG_ACTING_COUNT_T6_6">TOTAL_LONG_ACTING_COUNT_T6_6 (between 1 and 10):</label>
+	<input type="number" id="TOTAL_LONG_ACTING_COUNT_T6_6" name="TOTAL_LONG_ACTING_COUNT_T6_6" min="1" max="10">
+	<br>
+	</select>
+	<label for="TOTAL_SHORT_ACTING_COUNT_T6_6">TOTAL_SHORT_ACTING_COUNT_T6_6 (between 1 and 10):</label>
+	<input type="number" id="TOTAL_SHORT_ACTING_COUNT_T6_6" name="TOTAL_SHORT_ACTING_COUNT_T6_6" min="1" max="10">
+	<br>
+	</select>
+	<label for="TOTAL_INSULIN_COUNT_T6_6">TOTAL_INSULIN_COUNT_T6_6 (between 1 and 10):</label>
+	<input type="number" id="TOTAL_INSULIN_COUNT_T6_6" name="TOTAL_SHORT_ACTING_COUNT_T6_6" min="1" max="10">
+	<br>
+	</select>
+	<label for="TOTAL_SHORT_ACTING_COUNT_T17_0">TOTAL_SHORT_ACTING_COUNT_T17_0 (between 1 and 5):</label>
+	<input type="number" id="TOTAL_SHORT_ACTING_COUNT_T17_0" name="TOTAL_SHORT_ACTING_COUNT_T17_0" min="1" max="5">
+	<br>
+	</select>
+	<label for="TOTAL_INSULIN_COUNT_T17_0">TOTAL_INSULIN_COUNT_T17_0 (between 1 and 5):</label>
+	<input type="number" id="TOTAL_INSULIN_COUNT_T17_0" name="TOTAL_INSULIN_COUNT_T17_0" min="1" max="5">
+	<br>
+	</select>
+	<label for="LAST_INSULIN">LAST_INSULIN (between 0 and 35):</label>
+	<input type="number" id="LAST_INSULIN" name="LAST_INSULIN" min="0" max="35">
+	<br>
+	</select>
+	<label for="AVG_SG_BEFORE_&_AFTER_LAST_INSULIN_10">AVG_SG_BEFORE_&_AFTER_LAST_INSULIN_10 (between 0 and 300):</label>
+	<input type="number" id="AVG_SG_BEFORE_&_AFTER_LAST_INSULIN_10" name="AVG_SG_BEFORE_&_AFTER_LAST_INSULIN_10" min="0" max="300">
+	<br>
+	</select>
+	<label for="AVG_SG_T17_23">AVG_SG_T17_23 (between 0 and 300):</label>
+	<input type="number" id="AVG_SG_T17_23" name="AVG_SG_T17_23" min="0" max="300">
+	<br>
+	</select>
+	<label for="GLY_VAR">GLY_VAR (between 0 and 50):</label>
+	<input type="number" id="GLY_VAR" name="GLY_VAR" min="0" max="50">
+	<br>
+	</select>
+	<label for="AVG_SG_BEFORE_&_AFTER_SLEEP_10">AVG_SG_BEFORE_&_AFTER_SLEEP_10 (between 0 and 300):</label>
+	<input type="number" id="AVG_SG_BEFORE_&_AFTER_SLEEP_10" name="AVG_SG_BEFORE_&_AFTER_SLEEP_10" min="0" max="300">
+	<br>
+	</select>
+	<label for="AVG_IOB_BEFORE_&_AFTER_SLEEP_2">AVG_IOB_BEFORE_&_AFTER_SLEEP_2 (between 0 and 10):</label>
+	<input type="number" id="AVG_IOB_BEFORE_&_AFTER_SLEEP_2" name="AVG_IOB_BEFORE_&_AFTER_SLEEP_2" min="0" max="10">
+	<br>
+	</select>
+	<label for="TOTAL_MEAL_TO_TOTAL_INSULIN_RATIO">TOTAL_MEAL_TO_TOTAL_INSULIN_RATIO (between 0 and 10):</label>
+	<input type="number" id="TOTAL_MEAL_TO_TOTAL_INSULIN_RATIO" name="TOTAL_MEAL_TO_TOTAL_INSULIN_RATIO" min="0" max="10">
+	<br>
+	</select>
+	<label for="TOTAL_MEAL_TO_TOTAL_SHORT_ACT_INSULIN_RATIO">TOTAL_MEAL_TO_TOTAL_SHORT_ACT_INSULIN_RATIO (between 0 and 10):</label>
+	<input type="number" id="TOTAL_MEAL_TO_TOTAL_SHORT_ACT_INSULIN_RATIO" name="TOTAL_MEAL_TO_TOTAL_SHORT_ACT_INSULIN_RATIO" min="0" max="10">
+	<br>
+	</select>
+	<br>
+	<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
